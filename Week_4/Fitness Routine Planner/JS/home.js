@@ -1,0 +1,1 @@
+console.log("Welcome to the Fitness Routine Planner!");
