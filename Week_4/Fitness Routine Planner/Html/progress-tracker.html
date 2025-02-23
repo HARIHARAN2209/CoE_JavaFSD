@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Progress Tracker</title>
+    <link rel="stylesheet" href="../css/styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <img src="../images/logo.png" alt="Fitness Planner Logo">
+            <h1>Progress Tracker</h1>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="index.html"><i class="fas fa-home"></i> Home</a></li>
+                <li><a href="create-routine.html"><i class="fas fa-plus"></i> Create Routine</a></li>
+                <li><a href="my-routines.html"><i class="fas fa-dumbbell"></i> My Routines</a></li>
+                <li><a href="progress-tracker.html"><i class="fas fa-chart-line"></i> Progress Tracker</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section id="progress-tracker">
+            <h2>Your Progress</h2>
+            <img src="../images/progress.jpg" alt="Progress Image" class="progress-image">
+            <canvas id="progressChart"></canvas>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2023 Fitness Routine Planner</p>
+    </footer>
+    <script src="../js/progress-tracker.js"></script>
+</body>
+</html>

@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Create Routine</title>
+    <link rel="stylesheet" href="../css/styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <img src="../images/logo.png" alt="Fitness Planner Logo">
+            <h1>Create Routine</h1>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="index.html"><i class="fas fa-home"></i> Home</a></li>
+                <li><a href="create-routine.html"><i class="fas fa-plus"></i> Create Routine</a></li>
+                <li><a href="my-routines.html"><i class="fas fa-dumbbell"></i> My Routines</a></li>
+                <li><a href="progress-tracker.html"><i class="fas fa-chart-line"></i> Progress Tracker</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section id="create-routine">
+            <h2>Create a New Routine</h2>
+            <div class="form-group">
+                <label for="exercise-name"><i class="fas fa-running"></i> Exercise Name:</label>
+                <input type="text" id="exercise-name" placeholder="Enter exercise name">
+            </div>
+            <div class="form-group">
+                <label for="duration"><i class="fas fa-clock"></i> Duration (minutes):</label>
+                <input type="number" id="duration" min="1" max="60">
+            </div>
+            <div class="form-group">
+                <label for="rest-period"><i class="fas fa-stopwatch"></i> Rest Period (seconds):</label>
+                <input type="number" id="rest-period" min="0" max="120">
+            </div>
+            <button id="add-exercise"><i class="fas fa-plus"></i> Add Exercise</button>
+            <div id="exercise-list" class="exercise-list"></div>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2023 Fitness Routine Planner</p>
+    </footer>
+    <script src="../js/create-routine.js"></script>
+</body>
+</html>
