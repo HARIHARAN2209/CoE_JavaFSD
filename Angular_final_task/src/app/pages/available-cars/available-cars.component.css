@@ -1,0 +1,70 @@
+/* Cars Page Background */
+.cars-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+  padding: 40px;
+  background: linear-gradient(to bottom, white, #f8f8f8); 
+}
+
+/* Car Card Design */
+.car-card {
+  background: linear-gradient(to bottom, #8b0000, #600000);
+  color: white;
+  border-radius: 12px;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.3);
+  padding: 20px;
+  text-align: center;
+  transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+  max-width: 250px;
+  min-width: 250px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 350px; /* ✅ Fix the height */
+}
+
+/* Car Image */
+.car-card img {
+  width: 100%;
+  height: 180px;
+  object-fit: cover;
+  border-bottom: 3px solid white;
+  border-radius: 10px;
+}
+
+/* Car Name */
+.car-card h3 {
+  font-size: 20px;
+  font-weight: bold;
+  margin: 10px 0 5px;
+}
+
+/* Car Price */
+.car-card p {
+  font-size: 16px;
+  font-weight: bold;
+  color: #ffcccc;
+  margin: 0;
+}
+
+/* Take Rental Button */
+.car-card button {
+  display: inline-block;
+  margin-top: 10px;
+  padding: 8px 16px;
+  background: white;
+  color: #8b0000;
+  font-weight: bold;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.car-card button:hover {
+  background: #ffcccc;
+  color: #4b0000;
+  transform: scale(1.05);
+}

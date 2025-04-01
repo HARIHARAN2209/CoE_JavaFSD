@@ -1,0 +1,32 @@
+<div class="container">
+    <h1>"Drive your dreams with ease!"</h1>
+    <button class="take-rental-btn" (click)="navigateToRental()">Take Rental</button>
+  
+    <div class="offers-container">
+      <div class="offer-card" *ngFor="let offer of offers">
+        <h2>{{ offer.title }}</h2>
+        <p>{{ offer.description }}</p>
+      </div>
+    </div>
+  
+    <div class="ad-section">
+      <div class="ad-card">
+        <img src="assets/ad1.jpg" alt="Luxury Car Rental" class="ad-image" />
+        <div class="ad-content">
+          <h3>Luxury Car Rental - 40% OFF</h3>
+          <p>Book now and enjoy premium luxury rides at the best price.</p>
+          <button class="ad-button">Book Now</button>
+        </div>
+      </div>
+    
+      <div class="ad-card">
+        <img src="assets/ad2.png" alt="Hit The Road in Style" class="ad-image" />
+        <div class="ad-content">
+          <h3>Drive in Style - 15% OFF</h3>
+          <p>Choose from a wide selection of premium cars.</p>
+          <button class="ad-button">Explore</button>
+        </div>
+      </div>
+    </div>
+  </div>
+  

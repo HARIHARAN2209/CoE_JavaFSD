@@ -1,0 +1,45 @@
+[
+    {
+      "id": 1,
+      "name": "John Doe",
+      "email": "john.doe@example.com",
+      "car": "Toyota Corolla",
+      "days": 3
+    },
+    {
+      "id": 2,
+      "name": "Jane Smith",
+      "email": "jane.smith@example.com",
+      "car": "Honda Civic",
+      "days": 5
+    },
+    {
+      "id": 3,
+      "name": "Michael Brown",
+      "email": "michael.brown@example.com",
+      "car": "Ford Mustang",
+      "days": 2
+    },
+    {
+      "id": 4,
+      "name": "Emily Johnson",
+      "email": "emily.johnson@example.com",
+      "car": "BMW X5",
+      "days": 4
+    },
+    {
+      "id": 5,
+      "name": "David Wilson",
+      "email": "david.wilson@example.com",
+      "car": "Mercedes-Benz C-Class",
+      "days": 6
+    },
+    {
+      "id": 6,
+      "name": "Sophia Martinez",
+      "email": "sophia.martinez@example.com",
+      "car": "Audi A4",
+      "days": 1
+    }
+  ]
+  

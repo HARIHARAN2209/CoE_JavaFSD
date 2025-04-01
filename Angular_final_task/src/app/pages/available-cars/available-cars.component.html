@@ -1,0 +1,8 @@
+<div class="cars-container">
+  <div class="car-card" *ngFor="let car of cars">
+    <img [src]="car.image" [alt]="car.name" width="100%" height="150px">
+    <h3>{{ car.name }}</h3>
+    <p>Price: {{ car.price }}</p>
+    <button (click)="redirectToLogin()">Take Rental</button>
+  </div>
+</div>

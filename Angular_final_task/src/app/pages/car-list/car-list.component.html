@@ -1,0 +1,10 @@
+<h2>Available Cars for Rent</h2>
+<div class="car-container">
+  <div class="car-card" *ngFor="let car of cars">
+    <img [src]="car.image" [alt]="car.name">
+    <h3>{{ car.name }}</h3>
+    <p>Brand: {{ car.brand }}</p>
+    <p>Price Per Day: ${{ car.pricePerDay }}</p>
+    <a [routerLink]="['/book-car', car.id]" class="btn btn-primary">Rent Now</a>
+  </div>
+</div>

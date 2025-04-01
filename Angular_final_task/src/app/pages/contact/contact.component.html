@@ -1,0 +1,43 @@
+
+
+<div class="contact-container">
+  <!-- Contact Info Card -->
+  <div class="card">
+    <h3>📍 Our Location</h3>
+    <p><strong>Address:</strong> {{ contactInfo.address }}</p>
+    <p><strong>Phone:</strong> {{ contactInfo.phone }}</p>
+    <p><strong>Email:</strong> {{ contactInfo.email }}</p>
+  </div>
+
+  <!-- Social Media Card -->
+  <div class="card">
+    <h3>📱 Follow Us</h3>
+    <ul>
+      <li *ngFor="let social of socialLinks">
+        <a [href]="social.url" target="_blank">{{ social.icon }} {{ social.name }}</a>
+      </li>
+    </ul>
+  </div>
+
+  <!-- Ask a Question Card -->
+  <div class="card">
+    <h3>❓ Ask a Question</h3>
+    <form (ngSubmit)="submitForm()" #contactForm="ngForm">
+      <input type="text" placeholder="Your Name" [(ngModel)]="formData.name" name="name" required />
+      <input type="email" placeholder="Your Email" [(ngModel)]="formData.email" name="email" required />
+      <textarea placeholder="Your Message" [(ngModel)]="formData.message" name="message" required></textarea>
+      <button type="submit" [disabled]="contactForm.invalid">Submit</button>
+    </form>
+    <p *ngIf="isSubmitted" class="success-message">Thank you! We'll get back to you soon.</p>
+  </div>
+
+  <!-- Reviews Card -->
+  <div class="card">
+    <h3>🌟 What Our Customers Say</h3>
+    <ul>
+      <li *ngFor="let review of reviews">
+        <strong>{{ review.name }}:</strong> "{{ review.text }}"
+      </li>
+    </ul>
+  </div>
+</div>

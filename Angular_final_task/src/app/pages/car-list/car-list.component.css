@@ -1,0 +1,86 @@
+/* Page Background */
+body {
+  background: linear-gradient(to bottom, #fff, #f8f8f8);
+}
+
+/* Car Container */
+.car-container {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 20px;
+  padding: 40px;
+}
+
+/* Car Cards */
+.car-card {
+  width: 320px;
+  padding: 20px;
+  border-radius: 12px;
+  background-color: #fff;
+  box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.15);
+  text-align: center;
+  transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+  position: relative;
+}
+
+.car-card:hover {
+  transform: scale(1.03);
+  box-shadow: 0px 8px 18px rgba(0, 0, 0, 0.2);
+}
+
+/* Car Image */
+.car-card img {
+  width: 100%;
+  height: 160px;
+  object-fit: cover;
+  border-radius: 8px;
+  margin-bottom: 10px;
+}
+
+/* Car Title */
+.car-card h3 {
+  color: #7D0000; /* Rich Dark Red */
+  font-size: 1.5rem;
+  font-weight: 600;
+  margin-bottom: 8px;
+}
+
+/* Car Details */
+.car-card p {
+  color: #333;
+  font-size: 1rem;
+  margin: 5px 0;
+  font-weight: 500;
+}
+
+/* Rent Now Button */
+.car-card .btn-primary {
+  display: inline-block;
+  margin-top: 12px;
+  padding: 10px 20px;
+  background-color: #8B0000; /* Elegant Dark Red */
+  color: white;
+  text-decoration: none;
+  font-size: 1rem;
+  font-weight: 600;
+  border-radius: 6px;
+  transition: background 0.3s ease-in-out;
+}
+
+.car-card .btn-primary:hover {
+  background-color: #B22222; /* Slightly Brighter Red */
+}
+
+/* Available Cars Heading */
+/* Available Cars Heading */
+h2 {
+  font-size: 1.5rem; /* Smaller font size */
+  font-weight: 600;  /* Medium bold */
+  color: #7D0000;    /* Deep red to match theme */
+  text-align: center;
+  margin-top: 10px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
