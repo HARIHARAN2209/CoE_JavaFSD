@@ -1,0 +1,124 @@
+{
+  "project_info": {
+    "project_number": "98508745305",
+    "project_id": "flutter-e3e1d",
+    "storage_bucket": "flutter-e3e1d.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:98508745305:android:4be3ee09e1f140dc5fdf48",
+        "android_client_info": {
+          "package_name": "com.example.bus_booking_app"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC0ag8X4-bwVuXjvDeczCHGJwmX-iNlzYE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:98508745305:android:0b0689f070f99f415fdf48",
+        "android_client_info": {
+          "package_name": "com.example.firebaseapp"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC0ag8X4-bwVuXjvDeczCHGJwmX-iNlzYE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:98508745305:android:64a44b30dab0504b5fdf48",
+        "android_client_info": {
+          "package_name": "com.example.pet_adoption_app"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC0ag8X4-bwVuXjvDeczCHGJwmX-iNlzYE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:98508745305:android:45126c24652457725fdf48",
+        "android_client_info": {
+          "package_name": "com.example.travelguide"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC0ag8X4-bwVuXjvDeczCHGJwmX-iNlzYE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:98508745305:android:9654c6a866bc06095fdf48",
+        "android_client_info": {
+          "package_name": "com.example.travelsuggestion"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC0ag8X4-bwVuXjvDeczCHGJwmX-iNlzYE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:98508745305:android:fddf16d3f2a914e85fdf48",
+        "android_client_info": {
+          "package_name": "com.example.weather_travel_planner"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC0ag8X4-bwVuXjvDeczCHGJwmX-iNlzYE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
